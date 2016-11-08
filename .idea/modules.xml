@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Unirest.iml" filepath="$PROJECT_DIR$/.idea/modules/Unirest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Unirest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Unirest_main.iml" group="Unirest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Unirest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Unirest_test.iml" group="Unirest" />
+    </modules>
+  </component>
+</project>

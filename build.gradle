@@ -1,0 +1,21 @@
+group 'com.hanc'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'com.mashape.unirest', name: 'unirest-java', version: '1.4.9'
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.2'
+    compile group: 'org.apache.httpcomponents', name: 'httpasyncclient', version: '4.1.2'
+    compile group: 'org.apache.httpcomponents', name: 'httpmime', version: '4.5.2'
+    compile group: 'org.json', name: 'json', version: '20160810'
+    compile group: 'commons-io', name: 'commons-io', version: '2.5'
+
+}
