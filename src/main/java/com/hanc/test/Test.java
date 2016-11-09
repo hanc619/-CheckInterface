@@ -12,6 +12,7 @@ import java.util.concurrent.Future;
 
 /**
  * Created by Administrator on 2016/11/2.
+ * function：异步的处理测试接口
  */
 public class Test {
 
