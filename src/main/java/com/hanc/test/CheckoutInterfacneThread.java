@@ -32,7 +32,7 @@ public class CheckoutInterfacneThread implements Runnable{
                 ByteArrayOutputStream baos = new ByteArrayOutputStream();
                 PrintStream ps = new PrintStream(baos);
                 e.printStackTrace(ps);
-                messageBody = messageBody + "第" + (i+1) + "接口错误信息为：\n"+ baos.toString()+"\n";
+                messageBody = messageBody + "第" + (i+1) + "接口错误信息为：<br>"+ baos.toString()+"<br>";
                 j++;
                 continue;
             }
@@ -41,9 +41,9 @@ public class CheckoutInterfacneThread implements Runnable{
 
             int hashcode = body.toString().hashCode();
             //System.out.println("第" + (i + 1) + "条数据的hashcode为：" + hashcode);
-            messageBody = messageBody + "第" + (i + 1) + "条数据的hashcode为：" + hashcode +"\n";
+            messageBody = messageBody + "第" + (i + 1) + "条数据的hashcode为：" + hashcode +"<br>";
             //System.out.println("第" + (i + 1) + "条数据的字符串为：" + body.toString());
-            messageBody = messageBody + "第" + (i + 1) + "条数据的字符串为：" + body.toString()+"\n"+"\n";
+            messageBody = messageBody + "第" + (i + 1) + "条数据的字符串为：" + body.toString()+"<br>"+"<br>";
             //System.out.println();
 //            if(hashcode != Constant.hashList[j]){
 //                System.out.println("数据的hashcode为："+body.hashCode());

@@ -76,7 +76,7 @@ public class EmailsUtils {
                 }
             }
 
-            message.setContent(mp);
+            message.setContent(mp,"text/plain");
             message.saveChanges();//存储邮件信息
             // Transport 是用来发送信息的，
             // 用于邮件的收发打操作。
